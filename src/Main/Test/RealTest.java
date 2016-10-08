@@ -24,6 +24,20 @@ public class RealTest {
 		testing.question_3(perfect_number);
 	
 	}
+	@Test
+	public void keepTracking(){
+		int keepTrack_number = Integer.parseInt(testing.question_1(5));
+		testing.question_9(keepTrack_number);	
+	}
+	@Test
+	public void vowels(){
 	
-
+		testing.question_4(testing.generateString(5));
+	}
+	
+	@Test
+	public void numberPosition(){
+	
+		testing.question_6(testing.generateString(5));
+	}
 }
