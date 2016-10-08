@@ -26,7 +26,7 @@ public class AutomationEngineerTest {
 		 }
 		 }
 		 //if (isPrime)
-		 System.out.print(i + " ");
+		 System.out.print(i + "this is prime ");
 		}
     }
     public void  question_3(int target)
